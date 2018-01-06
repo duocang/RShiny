@@ -5,4 +5,7 @@ function(input, output, session){
     #
     callModule(birthPlace, "birthplace")
     
+    output$dataTable <- DT::renderDataTable({
+        DT::datatable(personalInfo)
+    })
 }
