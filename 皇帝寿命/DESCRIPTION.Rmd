@@ -1,0 +1,28 @@
+---
+title: "中国历代皇帝"
+author: "Xuesong Wang"
+date: "1/6/2018"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+晚上从朋友的生日party回家，有点浑浑噩噩。在床上躺尸，听着罗胖的关于秦王的东西。顺手买了《秦谜》，同时准备做这个shiny app去证明：皇帝是中国历史上风险最大的职业。
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
